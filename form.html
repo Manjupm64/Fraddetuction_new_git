@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Form demo</h1>
+    <form action="/tacos">
+    <p>
+    <label for="username">Enter the Usernme</label>
+    <input id="username" type="text" placeholder="username">
+    </p>
+    <p>
+        <label for="password">Enter the Password</label>
+    <input id="password" type="password" placeholder="password">
+    </p>
+    <p>
+    <input type="color">
+    </p>
+    <p>
+    <input type="number" placeholder="enter number">
+    </p>
+    <p>
+    <input type="checkbox">
+    </p>
+    <p>
+    <input type="date" placeholder="dd/mm/yyyy">
+    </p>
+    <h2>Check box checking</h2>
+    <form action="/birds">
+    <label for="check">I agree</label>
+    <input type="checkbox" id="check" name="agree" >
+    <p>
+        <label for="XS">XS</label>
+        <input type="radio" name="size" id="XS" value="LOLO">
+        <label for="S">S</label>
+        <input type="radio" name="size" id="S" value="oooh">
+        <label for="M">M</label>
+        <input type="radio" name="size" id="M" value="oook">
+
+    </p>
+    <p>
+        <label for="meal">Please select an entree</label>
+        <select name="meal" id="meal">
+            <option value="">---Select</option>
+            <option value="Poori">Poori</option>
+            <option value="Dosa">Dosa</option>
+        </select>
+    </p>
+    <p>
+        <label for="cheese">amount of chesee</label>
+        <input type="range" id="cheese" min="1" max="100" step="7" name="cheese_level">
+    </p>
+    <button>Submit</button>
+</form>
+
+</form>
+</body>
+</html>
